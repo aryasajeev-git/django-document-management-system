@@ -6,10 +6,12 @@ A secure **Document Management System** built using **Django** that enables user
 
 ## 🚀 Live Demo
 
-**Deployment in Progress**
+🚧 Deployment in Progress
 
-> The application will be deployed on **Render**.  
-> The live URL will be updated here after deployment.
+The application is currently being prepared for deployment on **Render**.
+
+The live demo URL will be added here once deployment is complete.
+
 
 ---
 
@@ -58,10 +60,20 @@ A secure **Document Management System** built using **Django** that enables user
 
 ---
 
+## 📋 Requirements
+
+Before running this project, ensure you have the following installed:
+
+- Python 3.10 or later
+- pip
+- Git
+
+---
+
 ## 📂 Project Structure
 
 ```text
-django-project/
+django-document-management-system/
 │
 ├── main_project/
 │   ├── settings.py
@@ -103,13 +115,13 @@ django-project/
 ## 1. Clone the Repository
 
 ```bash
-git clone https://github.com/aryasajeev-git/django-project.git
+git clone https://github.com/aryasajeev-git/django-document-management-system.git
 ```
 
 ## 2. Navigate to the Project Directory
 
 ```bash
-cd django-project
+cd django-document-management-system
 ```
 
 ## 3. Create a Virtual Environment
