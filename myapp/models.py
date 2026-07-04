@@ -7,7 +7,7 @@ class Usersprofile(models.Model):
     email=models.EmailField(max_length=50)
     phone_no=models.IntegerField()
     gender=models.CharField(max_length=50)
-    photo=models.CharField(max_length=50)
+    photo = models.ImageField(upload_to='profile/', null=True, blank=True)
     AUTHUSER=models.OneToOneField(User,on_delete=models.CASCADE)
 
 class Document(models.Model):
